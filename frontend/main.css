@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+  
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Krona One, Helvetica, sans-serif;
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+    height: 100%;
+    width: 100%;
+        
+}
+
+#header{
+
+    height: 20%;
+    width: 100%;
+
+    background-color: #1E1E1E;
+    color: white;
+
+    font-family: Krona One, Helvetica, sans-serif;
+
+
+    display: flex;
+    align-items: center;
+
+    padding: 7em;
+    padding-top: 10em;
+
+}
+
+.textologo{ font-size: 2em;}
+
+.logo{
+
+    width: 7em;
+    margin-right: 2em;
+
+}
+
+main{
+
+    height: 80%;
+    width: 100%;
+
+    background-color: #1E1E1E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.search{
+
+    width: 55em;
+    height: 4em;
+
+    border-radius: 0.9em;
+    border: none;
+
+    margin-right: 1em;
+
+
+}
+
+#barrabusca{
+
+    display: flex;
+    margin-top: -10em;
+    margin-bottom: 10em;
+
+}
+
+#botao{
+
+    width: 4em;
+    height: 4em;
+
+    background-color: #ff0019;
+
+    border-radius: 100%;
+    border: none;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+    font-size: 1em;
+
+}
+
+#resultados{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ff0019;
+    gap: 2em;
+
+    flex-wrap: wrap;
+
+}
+
+article{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+    background-color: aliceblue;
+    border-radius: 1em;
+
+    width: 30em;
+    height: 8em;
+
+    gap: 2em;
+
+
+}
+
+
+.nome, .pos{
+
+    font-family: Krona One, Helvetica, sans-serif;
+
+}
+
+.icon{width: 7em;}
+
+.nome{font-size: 2em;}
+
+.pos{
+
+    font-size: 1.1em;
+    color: #ff0019;
+    margin-top: -1em;
+    
+}
+
+
